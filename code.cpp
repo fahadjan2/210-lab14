@@ -1,7 +1,6 @@
 // COMSC-210 | Lab 14 | Fahad Fawad Ahmad
 // IDE used: Visual Studio
 #include <iostream>
-
 using namespace std;
 
 const int COLOR_SIZE = 3;
@@ -48,4 +47,6 @@ int main() {
     for (int i = 0; i < COLOR_SIZE; i++) {
         colors[i].print();
     }
+
+    delete [] colors;
 }
